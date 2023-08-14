@@ -1,0 +1,18 @@
+Features
+- search bar, onsubmit event listen, search by letter, select a player, on click we want to display fetch their info
+- Select on the player and populate the stats, populate  a list of players 
+- have some form of news on the home page before searching. when page loads (can be fake)
+- left side bar for stats. middle player cards right for saved players
+
+event listener 
+1) event listener on change (for on change of every letter to look up players)
+2) mouseover on a card to expand their image 
+mouseout - to reverse 2) 
+3) onclick (click on a player their stats pop up) on p tag on player name
+4) onclick save button, to save the player from the card 
+4) onclick collaspe the stats on the screen.
+Want player ID in our fetch
+
+https://www.balldontlie.io/api/v1/players - this API pulls team name and player name position /ID
+https://www.balldontlie.io/api/v1/stats - player stats
+https://www.balldontlie.io/api/v1/season_averages - season averages 
