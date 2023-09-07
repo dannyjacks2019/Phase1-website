@@ -1,5 +1,24 @@
 const searchInput = document.getElementById("search-input");
 
+const lightmode = document.getElementById("lightmode");
+
+const darkmode = document.getElementById("darkmode");
+
+lightmode.addEventListener("click", function(event) {
+    console.log("i am clicked")
+    const body = document.querySelector("body");
+
+   console.log( body.classList)
+   body.classList = "light_mode"
+})
+
+darkmode.addEventListener("click", function(event) {
+    const body = document.querySelector("body");
+
+    console.log( body.classList)
+    body.classList = "dark_mode"
+})
+
 const searchedPlayers = document.getElementById("searched-players")
 
 const playerAPI = "https://www.balldontlie.io/api/v1/players"

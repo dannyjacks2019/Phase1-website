@@ -1,6 +1,14 @@
-body{
+.body{
     background-color: rgb(23, 23, 229);
-}   
+} 
+.light_mode {
+    background-color: rgb(219, 215, 215) ;
+    color: black;
+} 
+.dark_mode {
+    background-color: rgb(23, 23, 229);
+    color: black;
+}  
 h1{
     color: rgb(180, 164, 167);
 }
@@ -60,4 +68,14 @@ form .fa-search{
 
 .team-name {
     font-size: 1.75rem;
+}
+
+.mode {
+    position: fixed;
+    right: 50px;
+    top: 25px;
+}
+
+i.fa-lightbulb {
+    font-size: 1.5rem;
 }

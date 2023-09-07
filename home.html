@@ -8,14 +8,22 @@
     <script defer type="text/javascript" src="script.js"></script>
     <script src="https://kit.fontawesome.com/4488effa16.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
+    <div class="mode">
+        <span>Light Mode
+            <i id="lightmode" class="fa-regular fa-lightbulb"></i>
+        </span>
+        <span>Dark Mode
+            <i id="darkmode" class="fa-solid fa-lightbulb"></i>
+        </span>
+    </div>
     <h1>NBA Player Stats</h1>
     <nav class="navbar">
         <div class="container">
-            <form>
+            <form id="playerForm">
                 <i class="fas fa-search" style="color: #777;"></i>
                 <input id="search-input" type="text" placeholder="Player name">
-                <button type="input">Search</button>
+                <button type="submit">Search</button>
             </form>
         </div>
     </nav>
